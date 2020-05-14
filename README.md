@@ -5,4 +5,4 @@
 - Code is written in Python with tkinter , yagmail and Sys Modules.
 
 
-![alt-text](GUI.png)
+![alt-text](GUI.PNG)
