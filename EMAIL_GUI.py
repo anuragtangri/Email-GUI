@@ -9,7 +9,7 @@ def send_email():
     #print(send_e + pass_e + rec_e)
     yag_smtp_connection = yagmail.SMTP(user=send_e, password=pass_e, host='smtp.gmail.com')
     subject = 'Hello from Anurag ! '
-    contents = ['Hello tom this is ANURAG speaking . Hows it going in JALANDHAR ?']
+    contents = ['Hello tom this is ANURAG speaking . How is it going ?']
     # send the email
     yag_smtp_connection.send(rec_e, subject, contents)
     sys.exit()
