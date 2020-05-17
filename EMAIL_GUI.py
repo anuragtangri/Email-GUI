@@ -36,7 +36,7 @@ label2.grid(row=1,column=0)
 
 
 
-e2=tk.Entry(window,textvariable=sender_password,width=30)
+e2=tk.Entry(window,textvariable=sender_password,width=30,show='*')
 e2.grid(row=1,column=1,padx=10,pady=10)
 
 
