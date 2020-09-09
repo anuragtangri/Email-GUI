@@ -16,7 +16,7 @@ def show():
 
 
 window=tk.Tk()
-window.title('Email Sending App')
+window.title('Py-MAIL')
 window.geometry("500x200")
 
 sender_email=tk.StringVar()
